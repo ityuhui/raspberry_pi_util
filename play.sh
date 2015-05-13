@@ -9,6 +9,7 @@ if [ $argc -eq 1 ];then
 elif [ $argc -eq 2 ];then
   $CMDLINE "$1" --pos "$2"
 else
-  echo "I will do nothing because there is no argument."
+  echo "Usage:"
+  echo "play.sh to_play.mp4 \"00:00:01\""
 fi
 
